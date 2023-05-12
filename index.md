@@ -8,3 +8,4 @@
 layout: home
 lastmod: 2022-02-10 00:12 +0700
 ---
+Things I've learned. Subscribe [via RSS](/feed.xml).

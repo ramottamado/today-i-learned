@@ -6,10 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: "Today I Learned"
+title: "Tamado Ramot Sitohang: TIL"
 email: "hello@ramottamado.dev"
 author: "Tamado Ramot Sitohang"
-description: Today I learned.
+description: >-
+  Things I've learned.
 
 nadya:
   date_format: "%b %d, %Y"
@@ -29,7 +30,6 @@ icon: "favicon.png"
 alt_icon: "favicon.ico"
 
 # SEO
-google_site_verification: "zaJj36ddah20RkBG1RrQqWm-IlXepNuw8ch6SYXeBPQ"
 gravatar: d380135b4724b6b8e74bd9f41b978284
 github:
   username: "ramottamado"
@@ -37,9 +37,6 @@ github:
 #   username: ""
 # linkedin:
 #   username: "ramottamado"
-twitter:
-  card: summary
-  username: "theramottamado"
 facebook:
   publisher: 103250301049786
   author: 100000091609630
@@ -47,7 +44,6 @@ social:
   name: "Tamado Ramot Sitohang"
   links:
     - "https://ramottamado.dev"
-    - "https://twitter.com/theramottamado"
 
 # Plugin Settings
 # sitemap:
@@ -57,7 +53,7 @@ feed:
 
 # Jekyll
 excerpt_separator: <!--more-->
-permalink: /:title/
+permalink: /:year/:month/:day/:title/
 
 remote_theme: ramottamado/nadya
 
