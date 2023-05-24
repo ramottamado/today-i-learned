@@ -14,8 +14,8 @@ description: >-
 
 nadya:
   date_format: "%b %d, %Y"
-  disable_attribution: false
-  disable_social: true
+  attribution: true
+  social: false
 
 defaults:
   - scope:
